@@ -18,7 +18,7 @@ Notification integration for [Notifications for Android TV](https://play.google.
 
 The notifications are in the global scope of your Android TV device. They will be displayed regardless of which application is running.
 
-When setting this up be aware, that there are two apps: one for your smartphone to send notifications (not required for this platform) and one for your Android TV device to receive the notifications. The app available in the store of your Android TV device is the one that is needed to display notifications sent from Home Assistant. The In-App purchases only apply to the client for Android smartphones, so there isn't any limit when pushing notifications from Home Assistant.
+When setting this up be aware, that there are two apps: one for your smartphone to send notifications (not required for this platform) and one for your Android TV device to receive the notifications. The app available in the store of your Android TV device is the one that is needed to display notifications sent from Home Assistant. The In-App purchases only apply to the client for Android smartphones, so there isn't any limit when pushing notifications from Home Assistant. IMPORTANT:  After installing the the correct app', verify that Notifications for Android TV has "Notification Access" toggled on (Settings>>Privacy>>Special Apps Access >>Notification Access).  You may need to restart the device after enabling it for the first time.
 
 {% include integrations/config_flow.md %}
 
